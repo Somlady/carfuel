@@ -53,7 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="FillUpFacts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -64,6 +63,10 @@
     <ProjectReference Include="..\CarFuel.Models\CarFuel.Models.csproj">
       <Project>{664233cd-e0d9-44ac-91f9-9228a51115e8}</Project>
       <Name>CarFuel.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarFuel.Utils\CarFuel.Utils.csproj">
+      <Project>{26df4654-9a09-424f-b78f-cb387db2f0d3}</Project>
+      <Name>CarFuel.Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

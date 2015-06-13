@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D7AD5F
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarFuel.Utils", "CarFuel.Utils\CarFuel.Utils.csproj", "{26DF4654-9A09-424F-B78F-CB387DB2F0D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{CC297A0A-6D88-423E-8D1A-F333E2F56E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC297A0A-6D88-423E-8D1A-F333E2F56E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC297A0A-6D88-423E-8D1A-F333E2F56E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26DF4654-9A09-424F-B78F-CB387DB2F0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26DF4654-9A09-424F-B78F-CB387DB2F0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26DF4654-9A09-424F-B78F-CB387DB2F0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26DF4654-9A09-424F-B78F-CB387DB2F0D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
